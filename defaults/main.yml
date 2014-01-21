@@ -1,8 +1,8 @@
 ---
-placeholder: 'placeholder'
-# plugins:
-#   - 'ldap'
-#   - 'github'
-#   - 'translation'
-#   - 'preSCMbuildstep'
-#   - 'gravatar'
+plugins:
+  - github
+  - gravatar
+  - hipchat
+  - build-pipeline-plugin
+  - job-dsl
+  - ghprb

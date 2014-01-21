@@ -2,3 +2,5 @@
 # Add Jenkins repository
 - include: jenkins.yml tags=jenkins
   when: ansible_distribution in [ 'Debian', 'Ubuntu' ]
+  tags:
+    - jenkins
