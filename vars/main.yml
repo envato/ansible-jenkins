@@ -8,6 +8,7 @@ jenkins:
       - 'openjdk-6-jdk'
       - 'git'
       - 'curl'
+      - 'libsqlite3-dev'
   dest: '/opt/jenkins'
   cli_dest: '${jenkins.dest}/jenkins-cli.jar' # Jenkins CLI destination
   updates_dest: '${jenkins.dest}/updates_jenkins.json' # Jenkins updates file
